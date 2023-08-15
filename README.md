@@ -14,8 +14,8 @@ Danny seeks to understand the repercussions of this change on Data Mart's sales 
 ![image](https://github.com/jef-fortunahamid/CaseStudy5_DataMart/assets/125134025/091ba931-9ef9-4540-8410-41822df1b8ef)
 
 ## General Insights
-- Formatting date columns and extracting date-related attributes like week_number, month_number, and calendar_year.
 1. *Data Cleansing and Transformation:* The queries primarily focused on the transformation of the weekly_sales data. This involved:
+- Formatting date columns and extracting date-related attributes like week_number, month_number, and calendar_year.
 - Creating new attributes like age_band and demographic based on existing column data.
 - Handling null values by replacing them with "unknown" and calculating averages.
 2. *Data Exploration:*
