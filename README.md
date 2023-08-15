@@ -15,23 +15,23 @@ Danny seeks to understand the repercussions of this change on Data Mart's sales 
 
 ## General Insights
 1. *Data Cleansing and Transformation:* The queries primarily focused on the transformation of the weekly_sales data. This involved:
-- Formatting date columns and extracting date-related attributes like week_number, month_number, and calendar_year.
-- Creating new attributes like age_band and demographic based on existing column data.
-- Handling null values by replacing them with "unknown" and calculating averages.
+	- Formatting date columns and extracting date-related attributes like week_number, month_number, and calendar_year.
+	- Creating new attributes like age_band and demographic based on existing column data.
+	- Handling null values by replacing them with "unknown" and calculating averages.
 2. *Data Exploration:*
-- The day of the week corresponding to the week_date was identified.
-- Missing week numbers from the dataset were identified.
-- Total transactions were aggregated by year.
-- The total sales for each region and each month were aggregated.
-- Transaction counts were aggregated for each platform.
-- The percentage of sales between Retail and Shopify was computed for each month.
-- The amount and percentage of sales by demographic were computed for each year.
-- The contribution of age_band and demographic values to Retail sales was computed.
+	- The day of the week corresponding to the week_date was identified.
+	- Missing week numbers from the dataset were identified.
+	- Total transactions were aggregated by year.
+	- The total sales for each region and each month were aggregated.
+	- Transaction counts were aggregated for each platform.
+	- The percentage of sales between Retail and Shopify was computed for each month.
+	- The amount and percentage of sales by demographic were computed for each year.
+	- The contribution of age_band and demographic values to Retail sales was computed.
 3. *Before and After Analysis:*
-- Sales were analyzed for periods before and after specific dates (especially around 2020-06-15) to understand the impact of potential events on sales performance.
-- This analysis was extended to different facets of the business, like regions, platforms, age bands, and customer types.
+	- Sales were analyzed for periods before and after specific dates (especially around 2020-06-15) to understand the impact of potential events on sales performance.
+	- This analysis was extended to different facets of the business, like regions, platforms, age bands, and customer types.
 4. *Business Impact Analysis:*
-- The areas of the business most negatively impacted in sales metrics for the 12 weeks before and after 2020-06-15 were identified. This was done across multiple dimensions: region, platform, age band, demographic, and customer type.
+	- The areas of the business most negatively impacted in sales metrics for the 12 weeks before and after 2020-06-15 were identified. This was done across multiple dimensions: region, platform, age band, demographic, and customer type.
 
 ## Key SQL Syntax and Functions:
 - Temporary Tables (`CREATE TEMP TABLE`)
