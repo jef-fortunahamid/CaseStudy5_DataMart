@@ -250,10 +250,13 @@ GROUP BY
   , demographic
 ORDER BY sales_percentage DESC;
 ```
+
 **age_band**
 ![image](https://github.com/jef-fortunahamid/CaseStudy5_DataMart/assets/125134025/a8334a42-656e-42ed-a415-f09c7a3a9f2e)
+
 **demographic**
 ![image](https://github.com/jef-fortunahamid/CaseStudy5_DataMart/assets/125134025/8c99cce5-4249-44b8-9158-b386fb48b9bc)
+
 **both age_band and demographic**
 ![image](https://github.com/jef-fortunahamid/CaseStudy5_DataMart/assets/125134025/1bcd4b1f-2f04-404c-a562-ab4e53dafc62)
 
